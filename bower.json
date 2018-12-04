@@ -1,0 +1,29 @@
+{
+  "name": "accessibilityjs",
+  "version": "1.0.0",
+  "description": "A tool to help developers deal withh accessibility in web applications",
+  "main": "dist/accessibility",
+  "keywords": [
+    "accessibility",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "author": "Ahsan Salim <ahsan.salim@amadeus.com>; Kirti Verma <kirti.verma2@amadeus.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://rndwww.nce.amadeus.net/git/projects/ACJS/repos/accessibility.js"
+  },
+  "main": "dist/accessibility.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.9.1"
+  }
+}

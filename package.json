@@ -1,0 +1,32 @@
+{
+  "name": "accessibilityjs",
+  "version": "1.0.0",
+  "description": "A tool to help developers deal withh accessibility in web applications",
+  "main": "dist/accessibility",
+  "keywords": [
+    "accessibility",
+    "front-end",
+    "framework",
+    "web"
+  ],
+  "scripts": {
+    "prestart": "npm install",
+    "postinstall": "bower install",
+    "start": "gulp",
+    "test": "gulp test"
+  },
+  "author": "Ahsan Salim <ahsan.salim@amadeus.com>; Kirti Verma <kirti.verma2@amadeus.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://rndwww.nce.amadeus.net/git/projects/ACJS/repos/accessibility.js"
+  },
+  "devDependencies": {
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-sourcemaps": "^2.4.1"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "jquery": ">=1.9.1"
+  }
+}
