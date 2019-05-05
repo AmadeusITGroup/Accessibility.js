@@ -1,3 +1,3 @@
 # accessibility.js
 
-This JavaScript library plug in that can be used to 
+Full documentation available at https://accessibilityjs.herokuapp.com/
